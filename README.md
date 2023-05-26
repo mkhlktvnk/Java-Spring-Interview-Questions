@@ -13,3 +13,4 @@
 - [Testing Basics](/topics/testing/testing-basics.md)
 - [JUnit](/topics/testing/junit.md)
 - [Mockito](/topics/testing/mockito.md)
+- [WireMock](/topics/testing/wire-mock.md)
