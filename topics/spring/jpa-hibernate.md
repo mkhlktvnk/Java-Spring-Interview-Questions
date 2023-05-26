@@ -129,7 +129,7 @@ Persistence Context выполняет следующие задачи:
 
 ## В каких состояниях может находиться сущность в Hibernate? Как можно управлять состоянием сущности?
 
-![img.png](images/jpa-hibernate/img.png)
+![img.png](../../images/jpa-hibernate/img.png)
 
 В Hibernate сущности могут находиться в следующих состояниях:
 
