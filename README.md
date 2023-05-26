@@ -7,7 +7,8 @@
 - [Spring Transactional](/topics/spring/spring-transactional.md)
 
 ## Web
-- [REST & HTTP/HTTPS](/topics/web/rest-http.md)
+- [HTTP](/topics/web/http.md)
+- [REST](/topics/web/rest.md)
 
 ## Testing
 - [Testing Basics](/topics/testing/testing-basics.md)
