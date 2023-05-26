@@ -5,6 +5,7 @@
 - [Spring AOP](/topics/spring/spring-aop.md)
 - [Jpa & Hibernate](/topics/spring/jpa-hibernate.md)
 - [Spring Transactional](/topics/spring/spring-transactional.md)
+- [Spring Web](/topics/spring/spring-web.md)
 
 ## Web
 - [HTTP](/topics/web/http.md)
