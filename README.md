@@ -1,6 +1,9 @@
 # Java & Spring Developer - Interview topics and questions
 
-## Databases
+## Объектно-ориентированное программирование
+- [Основы ООП](/topics/oop/oop-basics.md)
+
+## Базы данных
 - [Реляционная модель данных](/topics/databases/relational-data-model.md)
 - [SQL](/topics/databases/sql.md)
 
