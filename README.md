@@ -6,7 +6,7 @@
 ## Web
 - [HTTP](/topics/web/http.md)
 - [REST](/topics/web/rest.md)
-- 
+
 ## Spring & Hibernate
 - [Spring Core](/topics/spring/spring-core.md)
 - [Spring AOP](/topics/spring/spring-aop.md)
