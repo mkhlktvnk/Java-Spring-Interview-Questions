@@ -2,6 +2,7 @@
 
 ## Объектно-ориентированное программирование
 - [Основы ООП](/topics/oop/oop-basics.md)
+- [Принципы SOLID](/topics/oop/solid.md)
 
 ## Базы данных
 - [Реляционная модель данных](/topics/databases/relational-data-model.md)
