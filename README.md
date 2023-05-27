@@ -2,6 +2,7 @@
 
 ## Databases
 - [Реляционная модель данных](/topics/databases/relational-data-model.md)
+- [SQL](/topics/databases/sql.md)
 
 ## Web
 - [HTTP](/topics/web/http.md)
