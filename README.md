@@ -18,6 +18,8 @@
 - [Jpa & Hibernate](/topics/spring/jpa-hibernate.md)
 - [Spring Transactional](/topics/spring/spring-transactional.md)
 - [Spring Web](/topics/spring/spring-web.md)
+- [Spring Security](/topics/spring/spring-security.md)
+- [Spring Boot](/topics/spring/spring-boot.md)
 
 ## Testing
 - [Testing Basics](/topics/testing/testing-basics.md)
