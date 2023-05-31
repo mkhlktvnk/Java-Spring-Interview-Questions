@@ -3,6 +3,9 @@
 ## Системы сборки проектов
 - [Gradle](/topics/build-tools/gradle.md)
 
+## Java
+- [Stream API и функциональное программирование](/topics/java/stream-api-and-functional-programming.md)
+
 ## Объектно-ориентированное программирование
 - [Основы ООП](/topics/oop/oop-basics.md)
 - [Принципы SOLID](/topics/oop/solid.md)
