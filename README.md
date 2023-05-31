@@ -1,5 +1,8 @@
 # Java & Spring Developer - Interview topics and questions
 
+## Системы сборки проектов
+- [Gradle](/topics/build-tools/gradle.md)
+
 ## Объектно-ориентированное программирование
 - [Основы ООП](/topics/oop/oop-basics.md)
 - [Принципы SOLID](/topics/oop/solid.md)
