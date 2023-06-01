@@ -4,6 +4,7 @@
 - [Gradle](/topics/build-tools/gradle.md)
 
 ## Java
+- [Многопоточность и параллелизм](/topics/java/multithreading-and-concurrency.md)
 - [Stream API и функциональное программирование](/topics/java/stream-api-and-functional-programming.md)
 
 ## Объектно-ориентированное программирование
