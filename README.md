@@ -11,9 +11,12 @@
 - [Основы ООП](/topics/oop/oop-basics.md)
 - [Принципы SOLID](/topics/oop/solid.md)
 
-## Базы данных
-- [Реляционная модель данных](/topics/databases/relational-data-model.md)
-- [SQL](/topics/databases/sql.md)
+## Реляционные базы данных
+- [Реляционная модель данных](/topics/relational-databases/relational-data-model.md)
+- [SQL](/topics/relational-databases/sql.md)
+
+## Нереляционные базы данных
+- [Redis](/topics/non-relational-databases/redis.md)
 
 ## Web
 - [HTTP](/topics/web/http.md)
