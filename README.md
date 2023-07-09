@@ -5,6 +5,7 @@
 
 ## Java
 - [Многопоточность и параллелизм](/topics/java/multithreading-and-concurrency.md)
+- [Optional<T>](/topics/java/optional.md)
 - [Stream API и функциональное программирование](/topics/java/stream-api-and-functional-programming.md)
 
 ## Объектно-ориентированное программирование
