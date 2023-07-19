@@ -423,6 +423,52 @@ public class CompletableFutureExample {
 }
 ```
 
+## Перечислите методы CompletableFuture
+
+1. `static CompletableFuture<Void> allOf(CompletableFuture<?>... cfs)`: Возвращает новый `CompletableFuture`, который завершается, когда все переданные `CompletableFuture` завершены.
+
+2. `static CompletableFuture<Object> anyOf(CompletableFuture<?>... cfs)`: Возвращает новый `CompletableFuture`, который завершается, когда любой из переданных `CompletableFuture` завершается.
+
+3. `boolean cancel(boolean mayInterruptIfRunning)`: Попытка отменить выполнение `CompletableFuture`. Возвращает `true`, если удалось отменить успешно, иначе `false`.
+
+4. `boolean complete(T value)`: Пытается установить значение для `CompletableFuture`. Возвращает `true`, если установка прошла успешно, иначе `false`.
+
+5. `boolean completeExceptionally(Throwable ex)`: Пытается завершить `CompletableFuture` с исключением. Возвращает `true`, если завершение прошло успешно, иначе `false`.
+
+6. `CompletableFuture<T> exceptionally(Function<Throwable, ? extends T> fn)`: Возвращает новый `CompletableFuture`, который завершается с результатом функции `fn`, если исходный `CompletableFuture` завершился исключением.
+
+7. `T get() throws InterruptedException, ExecutionException`: Получает результат `CompletableFuture`. Если результат еще не доступен, блокирует вызывающий поток до его получения.
+
+8. `T get(long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException`: Получает результат `CompletableFuture` с ограничением времени ожидания. Если результат не доступен в течение указанного времени, выбрасывается исключение `TimeoutException`.
+
+9. `boolean isCancelled()`: Проверяет, был ли `CompletableFuture` отменен.
+
+10. `boolean isCompletedExceptionally()`: Проверяет, завершился ли `CompletableFuture` исключением.
+
+11. `boolean isDone()`: Проверяет, завершился ли `CompletableFuture`, успешно или с исключением.
+
+12. `<U> CompletableFuture<U> thenApply(Function<? super T,? extends U> fn)`: Применяет функцию `fn` к результату завершенного `CompletableFuture` и возвращает новый `CompletableFuture`, завершающийся с результатом применения функции.
+
+13. `CompletableFuture<Void> thenAccept(Consumer<? super T> action)`: Принимает действие `action`, которое будет выполнено с результатом завершенного `CompletableFuture`, и возвращает новый `CompletableFuture<Void>`.
+
+14. `CompletableFuture<Void> thenRun(Runnable action)`: Принимает действие `action`, которое будет выполнено, когда завершится исходный `CompletableFuture`, и возвращает новый `CompletableFuture<Void>`.
+
+15. `CompletableFuture<Void> thenCombine(CompletableFuture<? extends U> other, BiFunction<? super T,? super U,? extends V> fn)`: Комбинирует результаты двух `CompletableFuture` с помощью функции `fn` и возвращает новый `CompletableFuture<V>`.
+
+16. `CompletableFuture<Void> thenAcceptBoth(CompletableFuture<? extends U> other, BiConsumer<? super T,? super U> action)`: Принимает действие `action`, которое будет выполнено с результатами двух завершенных `CompletableFuture`, и возвращает новый `CompletableFuture<Void>`.
+
+17. `CompletableFuture<Void> runAfterBoth(CompletableFuture<?> other, Runnable action)`: Принимает действие `action`, которое будет выполнено, когда оба `CompletableFuture` завершены, и возвращает новый `CompletableFuture<Void>`.
+
+18. `CompletableFuture<T> applyToEither(CompletableFuture<? extends T> other, Function<? super T, U> fn)`: Применяет функцию `fn` к результату первого завершенного `CompletableFuture` и возвращает новый `CompletableFuture`, завершающийся с результатом применения функции.
+
+19. `CompletableFuture<Void> acceptEither(CompletableFuture<? extends T> other, Consumer<? super T> action)`: Принимает действие `action`, которое будет выполнено с результатом первого завершенного `CompletableFuture`, и возвращает новый `CompletableFuture<Void>`.
+
+20. `CompletableFuture<Void> runAfterEither(CompletableFuture<?> other, Runnable action)`: Принимает действие `action`, которое будет выполнено, когда хотя бы один из `CompletableFuture` завершится, и возвращает новый `CompletableFuture<Void>`.
+
+21. `static <U> CompletableFuture<U> supplyAsync(Supplier<U> supplier)`: Асинхронно выполняет поставщик `supplier` и возвращает новый `CompletableFuture`, завершающийся результатом выполнения поставщика.
+
+22. `static <U> CompletableFuture<U> supplyAsync(Supplier<U> supplier, Executor executor)`: Асинхронно выполняет поставщик `supplier` с использованием заданного исполнителя `executor` и возвращает новый `CompletableFuture`, завершающийся результатом выполнения поставщика.
+
 ## Что такое ExecutorService? Для чего он нужен? Какие у него методы? Какие основные реализации?
 
 `ExecutorService` в Java является интерфейсом из пакета `java.util.concurrent` и представляет собой механизм управления исполнением задач в потоках.
