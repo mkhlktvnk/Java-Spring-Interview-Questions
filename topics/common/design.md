@@ -482,7 +482,7 @@ interface Transport {
 
 // Конкретный продукт - Доставка по суше
 class LandTransport implements Transport {
-    
+
     @Override
     public String deliver() {
         return "Доставка по суше";
@@ -491,7 +491,7 @@ class LandTransport implements Transport {
 
 // Конкретный продукт - Доставка по воде
 class SeaTransport implements Transport {
-    
+
     @Override
     public String deliver() {
         return "Доставка по воде";
@@ -505,7 +505,7 @@ interface TransportFactory {
 
 // Конкретная фабрика - Фабрика для создания транспорта по суше
 class LandTransportFactory implements TransportFactory {
-    
+
     @Override
     public Transport createTransport() {
         return new LandTransport();
@@ -514,7 +514,7 @@ class LandTransportFactory implements TransportFactory {
 
 // Конкретная фабрика - Фабрика для создания транспорта по воде
 class SeaTransportFactory implements TransportFactory {
-    
+
     @Override
     public Transport createTransport() {
         return new SeaTransport();
@@ -539,6 +539,3 @@ public class Main {
     }
 }
 ```
-
-## Что такое абстрактная фабрика?
-

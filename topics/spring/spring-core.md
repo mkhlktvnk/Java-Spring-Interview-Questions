@@ -124,27 +124,29 @@ Bean в Spring Framework - это управляемый контейнером 
     данного бина.
 
 ## Какие есть скоупы у бина в Spring Framework?
+
 ![img.png](img1.png)
 Бины в Spring Framework делятся на 3 основных типа:
+
 - Common
 - Web
 - Custom
 
 Common scopes:
-- Singleton - бин в одном экземпляре (по id) и хранится в singleton cache 
-- Prototype - создается каждый раз при запросе из ApplicationContext 
+
+- Singleton - бин в одном экземпляре (по id) и хранится в singleton cache
+- Prototype - создается каждый раз при запросе из ApplicationContext
 - Thread - использует ThreadLocal<> для создания бинов для соответствующего потока
 
 Web:
+
 - Request
 - Session
 - Application
 - WebSocket
 
 Custom:
-Чтобы создать кастомный скоуп необходимо переопределить интерфейс Scope 
-
-
+Чтобы создать кастомный скоуп необходимо переопределить интерфейс Scope
 
 ## Опишите жизненный цикл бина в Spring Framework
 
